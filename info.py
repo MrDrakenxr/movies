@@ -45,7 +45,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+XWNNSYjGnh1hYWFl') #Su
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "")
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://envs.sh/s3y.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", '')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "")
@@ -68,11 +68,11 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://envs.sh/r9T.jpg https://envs.sh/r9A.jpg https://envs.sh/sDl.jpg https://envs.sh/sDU.jpg')).split()
-FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://envs.sh/r9A.jpg')
-REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
+START_IMG = (environ.get('START_IMG', 'https://envs.sh/r9T.jpg https://envs.sh/r9A.jpg https://envs.sh/sDl.jpg https://envs.sh/sDU.jpg https://envs.sh/s3y.jpg https://envs.sh/s3X.jpg https://envs.sh/s3m.jpg')).split()
+FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://envs.sh/s3m.jpg')
+REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/s3X.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/r9T.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/sDl.jpg'))
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/s3X.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
